@@ -9,11 +9,13 @@
     <header>
         <h1>Modernizing Data Storage Using OCI</h1>
         <nav>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="architecture.html">Storage Architecture</a>
-            <a href="strategy.html">Implementation Strategy</a>
-            <a href="security.html">Security & Efficiency</a>
-            <a href="resources.html">Resources</a>
+            <a href="architecture.html">Architecture</a>
+            <a href="strategy.html">Strategy</a>
+            <a href="integration.html">Integration</a>
+            <a href="security.html">Security</a>
+            <a href="optimization.html">Optimization</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
