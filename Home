@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modernizing Data Storage Using OCI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Modernizing Data Storage Using OCI</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="architecture.html">Storage Architecture</a>
+            <a href="strategy.html">Implementation Strategy</a>
+            <a href="security.html">Security & Efficiency</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Our Data Storage Modernization Project</h2>
+            <p>We are leveraging Oracle Cloud Infrastructure (OCI) to revamp our data storage systems and align with modern business needs.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Naveenkumar© 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
