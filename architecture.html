@@ -28,13 +28,49 @@
         <h3>1. Oracle Cloud Infrastructure (OCI) Components</h3>
         <p>OCI provides a wide range of services to meet modern data storage and management needs. The key components of our architecture include:</p>
         <ul>
+            <h2>OCI Data Storage Architecture</h2>
+        <p>The architecture of our data storage solution leverages Oracle Cloud Infrastructure (OCI) to provide a scalable, secure, and efficient system. Below is a breakdown of the key components involved in this architecture:</p>
+
+        <h3>1. Oracle Cloud Infrastructure (OCI) Components</h3>
+        <p>OCI provides a wide range of services to meet modern data storage and management needs. The key components of our architecture include:</p>
+        <ul>
             <li><strong>Compute Instances</strong>: Virtual machines that run applications and services.</li>
             <li><strong>Block Storage</strong>: Persistent storage volumes for storing data associated with compute instances.</li>
             <li><strong>Object Storage</strong>: Scalable storage for unstructured data like images, videos, backups, and logs.</li>
             <li><strong>Database Services</strong>: Fully managed databases for structured data storage and management.</li>
             <li><strong>Networking Services</strong>: Ensures secure and seamless connectivity between different OCI services and on-premise systems.</li>
             <li><strong>Identity and Access Management (IAM)</strong>: Manages access control to OCI resources, ensuring secure operations and compliance.</li>
-            </ul>
+        </ul>
+
+        <h3>2. Data Flow and System Interaction</h3>
+        <p>The system architecture is designed to ensure seamless integration, data security, and scalability. Here's how the different components interact:</p>
+        
+        <img src="images/oci-architecture-diagram.png" alt="OCI Architecture Diagram" style="max-width: 100%; height: auto;">
+        
+        <p>The diagram above illustrates the following key processes:</p>
+        <ul>
+            <li><strong>Data Ingestion:</strong> Data is ingested from various sources and uploaded to OCI’s Object Storage or directly to databases.</li>
+            <li><strong>Data Processing:</strong> Compute instances process the data using cloud-native applications or virtualized services.</li>
+            <li><strong>Data Storage:</strong> Data is securely stored in block or object storage, depending on the type of data (structured or unstructured).</li>
+            <li><strong>Data Access:</strong> Data is accessed by authorized users or applications, with strict access control managed by IAM.</li>
+            <li><strong>Data Backup and Disaster Recovery:</strong> Automated backup processes ensure business continuity, with backups stored in different OCI regions for disaster recovery.</li>
+        </ul>
+
+        <h3>3. Scalability and Performance</h3>
+        <p>OCI’s architecture allows us to scale the data storage solution as needed. Key strategies for scalability include:</p>
+        <ul>
+            <li><strong>Elastic Storage:</strong> Block and object storage scales automatically based on the volume of data.</li>
+            <li><strong>Load Balancing:</strong> Compute instances are balanced across multiple regions to handle large-scale applications and workloads.</li>
+            <li><strong>Performance Tuning:</strong> OCI services allow us to fine-tune performance to meet evolving business demands.</li>
+        </ul>
+
+        <h3>4. Security Measures</h3>
+        <p>Security is a critical component of the architecture. Some key security features include:</p>
+        <ul>
+            <li><strong>Encryption:</strong> All data stored in OCI is encrypted at rest and in transit to ensure data confidentiality.</li>
+            <li><strong>Compliance:</strong> OCI adheres to industry standards and regulations (e.g., GDPR, HIPAA), ensuring that our data storage meets compliance requirements.</li>
+            <li><strong>Access Control:</strong> IAM provides fine-grained control over who can access data and resources within the OCI environment.</li>
+            <li><strong>Audit Logging:</strong> Detailed logs of all operations provide traceability for security audits and monitoring.</li>
         </section>
     </main>
     <footer>
